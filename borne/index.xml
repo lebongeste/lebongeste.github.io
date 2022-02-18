@@ -2,61 +2,61 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Récup verre on Le bon geste</title>
-    <link>http://example.org/borne/</link>
+    <link>https://www.lebongeste.co/borne/</link>
     <description>Recent content in Récup verre on Le bon geste</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language><atom:link href="http://example.org/borne/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr-fr</language><atom:link href="https://www.lebongeste.co/borne/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Centre d&#39;ébergement Charles Domercq</title>
-      <link>http://example.org/borne/posts/centre-debergement-charles-domercq/</link>
+      <link>https://www.lebongeste.co/borne/posts/centre-debergement-charles-domercq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/borne/posts/centre-debergement-charles-domercq/</guid>
+      <guid>https://www.lebongeste.co/borne/posts/centre-debergement-charles-domercq/</guid>
       <description>Adresse : 21 rue Charles Domercq, 33000 Bordeaux  Ouverture    Lundi Mardi Mercredi Jeudi Vendredi Samedi Dimanche     FERME FERME FERME FERME FERME FERME FERME    </description>
     </item>
     
     <item>
       <title>centre monséjour</title>
-      <link>http://example.org/borne/posts/centre-monsejour/</link>
+      <link>https://www.lebongeste.co/borne/posts/centre-monsejour/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/borne/posts/centre-monsejour/</guid>
+      <guid>https://www.lebongeste.co/borne/posts/centre-monsejour/</guid>
       <description>Adresse : rue François Coppé, 33000 Bordeaux  Ouverture    Lundi Mardi Mercredi Jeudi Vendredi Samedi Dimanche     Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué    </description>
     </item>
     
     <item>
       <title>Centre social Alouette</title>
-      <link>http://example.org/borne/posts/centre-social-alouette/</link>
+      <link>https://www.lebongeste.co/borne/posts/centre-social-alouette/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/borne/posts/centre-social-alouette/</guid>
+      <guid>https://www.lebongeste.co/borne/posts/centre-social-alouette/</guid>
       <description>Adresse : 45 Boulevard du haut livrac  Ouverture    Lundi Mardi Mercredi Jeudi Vendredi Samedi Dimanche     Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué    </description>
     </item>
     
     <item>
       <title>squareJoséphine</title>
-      <link>http://example.org/borne/posts/squarejosephine/</link>
+      <link>https://www.lebongeste.co/borne/posts/squarejosephine/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/borne/posts/squarejosephine/</guid>
+      <guid>https://www.lebongeste.co/borne/posts/squarejosephine/</guid>
       <description>Adresse : Avenue Georges Clemenceau Caud, 33000 Bordeaux  Ouverture    Lundi Mardi Mercredi Jeudi Vendredi Samedi Dimanche     Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué    </description>
     </item>
     
     <item>
       <title>villa du lac 1</title>
-      <link>http://example.org/borne/posts/villa-du-lac-1/</link>
+      <link>https://www.lebongeste.co/borne/posts/villa-du-lac-1/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/borne/posts/villa-du-lac-1/</guid>
+      <guid>https://www.lebongeste.co/borne/posts/villa-du-lac-1/</guid>
       <description>Adresse : rue Marie Renée Orard  Ouverture    Lundi Mardi Mercredi Jeudi Vendredi Samedi Dimanche     Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué    </description>
     </item>
     
     <item>
       <title>Village 1- Résidente étudiante</title>
-      <link>http://example.org/borne/posts/village-1-residente-etudiante/</link>
+      <link>https://www.lebongeste.co/borne/posts/village-1-residente-etudiante/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/borne/posts/village-1-residente-etudiante/</guid>
+      <guid>https://www.lebongeste.co/borne/posts/village-1-residente-etudiante/</guid>
       <description>Adresse : avenue de Collegno, 33400 Talence  Ouverture    Lundi Mardi Mercredi Jeudi Vendredi Samedi Dimanche     FERME FERME FERME FERME FERME FERME FERME    </description>
     </item>
     

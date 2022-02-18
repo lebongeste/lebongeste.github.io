@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Ananke: Un thème pour Hugo on Le bon geste</title>
-    <link>http://example.org/guide/</link>
+    <link>https://www.lebongeste.co/guide/</link>
     <description>Recent content in Ananke: Un thème pour Hugo on Le bon geste</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>fr-fr</language><atom:link href="http://example.org/guide/index.xml" rel="self" type="application/rss+xml" />
+    <language>fr-fr</language><atom:link href="https://www.lebongeste.co/guide/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bibliothèque Saint Augustin</title>
-      <link>http://example.org/guide/posts/bibliotheque-saint-augustin/</link>
+      <link>https://www.lebongeste.co/guide/posts/bibliotheque-saint-augustin/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://example.org/guide/posts/bibliotheque-saint-augustin/</guid>
+      <guid>https://www.lebongeste.co/guide/posts/bibliotheque-saint-augustin/</guid>
       <description>Adresse : Place de l&amp;rsquo;église Saint Augustin  Ouverture    Lundi Mardi Mercredi Jeudi Vendredi Samedi Dimanche     Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué    </description>
     </item>
     

@@ -62,4 +62,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: http://example.org/sitemap.xml
+Sitemap: https://www.lebongeste.co/sitemap.xml

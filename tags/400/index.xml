@@ -1,22 +1,22 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>400 - Balise - Le bon geste</title>
-        <link>http://example.org/tags/400/</link>
+        <link>https://www.lebongeste.co/tags/400/</link>
         <description>400 - Balise - Le bon geste</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr-fr</language><atom:link href="http://example.org/tags/400/" rel="self" type="application/rss+xml" /><item>
+        <generator>Hugo -- gohugo.io</generator><language>fr-fr</language><atom:link href="https://www.lebongeste.co/tags/400/" rel="self" type="application/rss+xml" /><item>
     <title>balguerie</title>
-    <link>http://example.org/composte/posts/balguerie/</link>
+    <link>https://www.lebongeste.co/composte/posts/balguerie/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>Auteur</author>
-    <guid>http://example.org/composte/posts/balguerie/</guid>
+    <guid>https://www.lebongeste.co/composte/posts/balguerie/</guid>
     <description><![CDATA[Adresse : 101 cours balguerie, 33000 Bordeaux zob
  Ouverture    Lundi Mardi Mercredi Jeudi Vendredi Samedi Dimanche     Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué    ]]></description>
 </item><item>
     <title>Centre d&#39;ébergement Charles Domercq</title>
-    <link>http://example.org/borne/posts/centre-debergement-charles-domercq/</link>
+    <link>https://www.lebongeste.co/borne/posts/centre-debergement-charles-domercq/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>Auteur</author>
-    <guid>http://example.org/borne/posts/centre-debergement-charles-domercq/</guid>
+    <guid>https://www.lebongeste.co/borne/posts/centre-debergement-charles-domercq/</guid>
     <description><![CDATA[Adresse : 21 rue Charles Domercq, 33000 Bordeaux  Ouverture    Lundi Mardi Mercredi Jeudi Vendredi Samedi Dimanche     FERME FERME FERME FERME FERME FERME FERME    ]]></description>
 </item></channel>
 </rss>
