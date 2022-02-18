@@ -1,0 +1,28 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>recuperateur-verre - Catégorie - Le bon geste</title>
+        <link>http://example.org/categories/recuperateur-verre/</link>
+        <description>recuperateur-verre - Catégorie - Le bon geste</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr-fr</language><atom:link href="http://example.org/categories/recuperateur-verre/" rel="self" type="application/rss+xml" /><item>
+    <title>squareJoséphine</title>
+    <link>http://example.org/borne/posts/squarejosephine/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>http://example.org/borne/posts/squarejosephine/</guid>
+    <description><![CDATA[Adresse : Avenue Georges Clemenceau Caud, 33000 Bordeaux  Ouverture    Lundi Mardi Mercredi Jeudi Vendredi Samedi Dimanche     Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué    ]]></description>
+</item><item>
+    <title>villa du lac 1</title>
+    <link>http://example.org/borne/posts/villa-du-lac-1/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>http://example.org/borne/posts/villa-du-lac-1/</guid>
+    <description><![CDATA[Adresse : rue Marie Renée Orard  Ouverture    Lundi Mardi Mercredi Jeudi Vendredi Samedi Dimanche     Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué Non communiqué    ]]></description>
+</item><item>
+    <title>Village 1- Résidente étudiante</title>
+    <link>http://example.org/borne/posts/village-1-residente-etudiante/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>http://example.org/borne/posts/village-1-residente-etudiante/</guid>
+    <description><![CDATA[Adresse : avenue de Collegno, 33400 Talence  Ouverture    Lundi Mardi Mercredi Jeudi Vendredi Samedi Dimanche     FERME FERME FERME FERME FERME FERME FERME    ]]></description>
+</item></channel>
+</rss>

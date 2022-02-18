@@ -1,0 +1,16 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Tous Posts - Le bon geste</title>
+        <link>http://example.org/posts/</link>
+        <description>Tous Posts | Le bon geste</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr-fr</language><lastBuildDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</lastBuildDate><atom:link href="http://example.org/posts/" rel="self" type="application/rss+xml" /><item>
+    <title>Ajout de ville: Bordeaux</title>
+    <link>http://example.org/posts/ajout-de-ville-bordeaux/</link>
+    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
+    <author>Auteur</author>
+    <guid>http://example.org/posts/ajout-de-ville-bordeaux/</guid>
+    <description><![CDATA[Ajout d&rsquo;une nouvelle ville: Bordeaux Nous venons de rajotuer Bordeaux à l&rsquo;idex de bon geste.
+Les données à disposition sont les suivantes [] Composte partagé [] Borne d&rsquo;appoint
+Enjoy ]]></description>
+</item></channel>
+</rss>
