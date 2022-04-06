@@ -2,10 +2,14 @@
     xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     ><url>
+            <loc>https://www.lebongeste.co/guide/</loc><lastmod>2022-04-06T00:00:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.lebongeste.co/</loc><lastmod>2022-04-06T00:00:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.lebongeste.co/guide/posts/avantage-lombricomposteur/</loc><lastmod>2022-04-06T00:00:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>1</priority></url><url>
+            <loc>https://www.lebongeste.co/guide/posts/lutter-mouche-compost/</loc><lastmod>2022-03-21T00:00:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url><url>
+            <loc>https://www.lebongeste.co/guide/posts/calendrier-legume-fruit-saison/</loc><lastmod>2022-02-24T00:00:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/categories/actualite/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/posts/ajout-de-ville-bordeaux/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/categories/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://www.lebongeste.co/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/posts/</loc><lastmod>2019-10-01T17:55:28&#43;08:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/tags/3/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/tags/5/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
@@ -92,7 +96,6 @@
             <loc>https://www.lebongeste.co/compost/eysines/gleditschias-emmaus/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/cities/gradignan/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/compost/cenon/groupe-elementaire-jules-guesde/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://www.lebongeste.co/guide/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/compost/merignac/hameau-de-beutre/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/compost/bordeaux/impasse-de-la-prairie/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/compost/bruges/impasse-rosa-bonheur/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
