@@ -193,7 +193,6 @@
             <loc>https://www.lebongeste.co/compost/merignac/residence-villa-montesquieu/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/compost/saint-medard-en-jalles/rpa-jean-dormesson/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/compost/lormont/rue-du-manoir/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://www.lebongeste.co/borne/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/borne/ambares-et-lagrave/borne-verre-/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/borne/artigues-pres-bordeaux/borne-verre-/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/borne/begles/borne-verre-/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
@@ -1177,6 +1176,7 @@
             <loc>https://www.lebongeste.co/tags/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/cities/talence/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/compost/pessac/tournebride/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.lebongeste.co/borne/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/compost/bruges/villa-du-lac-1/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/compost/talence/village-1-residente-etudiante/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/cities/villenave-dornon/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
