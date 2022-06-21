@@ -26,7 +26,18 @@
             <a href="/" title="Le bon geste">Le bon geste</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Actualité </a><a class="menu-item" href="/borne"> Borne d&#39;appoint </a><a class="menu-item" href="/compost"> Compost </a><a class="menu-item" href="/guide"> Guides écologiques </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Actualité </a><a class="menu-item" href="/borne"> Borne d&#39;appoint </a><a class="menu-item" href="/compost"> Compost </a><a class="menu-item" href="/guide"> Guides écologiques </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Chercher">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clair">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a>
             </div>
@@ -42,7 +53,23 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Actualité</a><a class="menu-item" href="/borne" title="">Borne d&#39;appoint</a><a class="menu-item" href="/compost" title="">Compost</a><a class="menu-item" href="/guide" title="">Guides écologiques</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Chercher">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clair">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Annuler
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Actualité</a><a class="menu-item" href="/borne" title="">Borne d&#39;appoint</a><a class="menu-item" href="/compost" title="">Compost</a><a class="menu-item" href="/guide" title="">Guides écologiques</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
@@ -55,64 +82,64 @@
 </div>
 <main class="main">
                 <div class="container"><div class="page archive" ><a href="/cities/talence"><h3 class="group-title">Conteneur à verre à Talence</h3></a><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-impasse-suzon/" class="archive-item-link">Récupérateur de verre Impasse Suzon</a>
+                        <a href="/borne/talence/borne-verre-rue-roustaing/" class="archive-item-link">Récupérateur de verre Rue Roustaing</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-place-charles-de-gaulle/" class="archive-item-link">Récupérateur de verre Place Charles de Gaulle</a>
+                        <a href="/borne/talence/borne-verre-rue-edouard-herriot/" class="archive-item-link">Récupérateur de verre Rue Édouard Herriot</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-place-franklin/" class="archive-item-link">Récupérateur de verre Place Franklin</a>
+                        <a href="/borne/talence/borne-verre-rue-etienne-dolet/" class="archive-item-link">Récupérateur de verre Rue Étienne Dolet</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-place-wilson/" class="archive-item-link">Récupérateur de verre Place Wilson</a>
+                        <a href="/borne/talence/borne-verre-residence-le-quadrige/" class="archive-item-link">Récupérateur de verre Résidence le Quadrige</a>
+                        <span class="archive-item-date">01-01</span>
+                    </article><a href="/cities/villenave-d%27ornon"><h3 class="group-title">Conteneur à verre à Villenave-d&#39;Ornon</h3></a><article class="archive-item">
+                        <a href="/borne/villenave-dornon/borne-verre-/" class="archive-item-link">Récupérateur de verre</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-auguste-renoir/" class="archive-item-link">Récupérateur de verre Rue Auguste Renoir</a>
+                        <a href="/borne/villenave-dornon/borne-verre-5-a/" class="archive-item-link">Récupérateur de verre 5 a</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-blaise-pascal/" class="archive-item-link">Récupérateur de verre Rue Blaise Pascal</a>
+                        <a href="/borne/villenave-dornon/borne-verre-allee-jacques-brel/" class="archive-item-link">Récupérateur de verre Allée Jacques Brel</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-blanqui/" class="archive-item-link">Récupérateur de verre Rue Blanqui</a>
+                        <a href="/borne/villenave-dornon/borne-verre-avenue-de-la-liberation/" class="archive-item-link">Récupérateur de verre Avenue de la Libération</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-bourges/" class="archive-item-link">Récupérateur de verre Rue Bourges</a>
+                        <a href="/borne/villenave-dornon/borne-verre-avenue-des-pyrenees/" class="archive-item-link">Récupérateur de verre Avenue des Pyrénées</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-chateaubriand/" class="archive-item-link">Récupérateur de verre Rue Chateaubriand</a>
+                        <a href="/borne/villenave-dornon/borne-verre-avenue-du-7e-art/" class="archive-item-link">Récupérateur de verre Avenue du 7e Art</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-dalembert/" class="archive-item-link">Récupérateur de verre Rue d&#39;Alembert</a>
+                        <a href="/borne/villenave-dornon/borne-verre-avenue-du-general-castelnau/" class="archive-item-link">Récupérateur de verre Avenue du Général Castelnau</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-de-megret/" class="archive-item-link">Récupérateur de verre Rue de Mégret</a>
+                        <a href="/borne/villenave-dornon/borne-verre-avenue-du-marechal-juin/" class="archive-item-link">Récupérateur de verre Avenue du Maréchal Juin</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-de-suzon/" class="archive-item-link">Récupérateur de verre Rue de Suzon</a>
+                        <a href="/borne/villenave-dornon/borne-verre-avenue-du-marechal-leclerc/" class="archive-item-link">Récupérateur de verre Avenue du Maréchal Leclerc</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-diderot/" class="archive-item-link">Récupérateur de verre Rue Diderot</a>
+                        <a href="/borne/villenave-dornon/borne-verre-avenue-sadi-carnot/" class="archive-item-link">Récupérateur de verre Avenue Sadi Carnot</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-du-general-bordas/" class="archive-item-link">Récupérateur de verre Rue du Général Bordas</a>
+                        <a href="/borne/villenave-dornon/borne-verre-avenue-edouard-bourlaux/" class="archive-item-link">Récupérateur de verre Avenue Édouard Bourlaux</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-du-general-margueritte/" class="archive-item-link">Récupérateur de verre Rue du Général Margueritte</a>
+                        <a href="/borne/villenave-dornon/borne-verre-chemin-de-brignon/" class="archive-item-link">Récupérateur de verre Chemin de Brignon</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-eugene-delacroix/" class="archive-item-link">Récupérateur de verre Rue Eugène Delacroix</a>
+                        <a href="/borne/villenave-dornon/borne-verre-chemin-de-couhins/" class="archive-item-link">Récupérateur de verre Chemin de Couhins</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-georges-pompidou/" class="archive-item-link">Récupérateur de verre Rue Georges Pompidou</a>
+                        <a href="/borne/villenave-dornon/borne-verre-chemin-de-galgon/" class="archive-item-link">Récupérateur de verre Chemin de Galgon</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-lafitte/" class="archive-item-link">Récupérateur de verre Rue Lafitte</a>
+                        <a href="/borne/villenave-dornon/borne-verre-chemin-de-leysotte/" class="archive-item-link">Récupérateur de verre Chemin de Leysotte</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-maurice-ferrus/" class="archive-item-link">Récupérateur de verre Rue Maurice Ferrus</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/talence/borne-verre-rue-paul-verlaine/" class="archive-item-link">Récupérateur de verre Rue Paul Verlaine</a>
+                        <a href="/borne/villenave-dornon/borne-verre-chemin-des-orphelins/" class="archive-item-link">Récupérateur de verre Chemin des Orphelins</a>
                         <span class="archive-item-date">01-01</span>
                     </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
@@ -140,10 +167,6 @@
                     <span class="page-link">
                         <a href="/borne/page/43/">43</a>
                     </span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/borne/page/44/">44</a>
-                    </span>
                 </li></ul></div></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Propulsé par <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.93.2">Hugo</a> | Thème - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
@@ -155,7 +178,7 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="Afficher les Commentaires">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10},"comment":{},"search":{"algoliaAppID":"IQ0PPT957C","algoliaIndex":"lebongeste","algoliaSearchKey":"2f1efa0eab58de113ad43babe81520d4","highlightTag":"em","maxResultLength":10,"noResultsFound":"Aucun résultat trouvé","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
             gtag('config', 'UA-220940800-1');
         </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-220940800-1" async></script></body>

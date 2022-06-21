@@ -26,7 +26,18 @@
             <a href="/" title="Le bon geste">Le bon geste</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Actualité </a><a class="menu-item" href="/borne"> Borne d&#39;appoint </a><a class="menu-item" href="/compost"> Compost </a><a class="menu-item" href="/guide"> Guides écologiques </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Actualité </a><a class="menu-item" href="/borne"> Borne d&#39;appoint </a><a class="menu-item" href="/compost"> Compost </a><a class="menu-item" href="/decheterie"> Décheterie </a><a class="menu-item" href="/guide"> Guides écologiques </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Chercher">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clair">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a>
             </div>
@@ -42,7 +53,23 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Actualité</a><a class="menu-item" href="/borne" title="">Borne d&#39;appoint</a><a class="menu-item" href="/compost" title="">Compost</a><a class="menu-item" href="/guide" title="">Guides écologiques</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Chercher">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clair">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Annuler
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Actualité</a><a class="menu-item" href="/borne" title="">Borne d&#39;appoint</a><a class="menu-item" href="/compost" title="">Compost</a><a class="menu-item" href="/decheterie" title="">Décheterie</a><a class="menu-item" href="/guide" title="">Guides écologiques</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
@@ -54,47 +81,48 @@
     <div id="search-dropdown-mobile"></div>
 </div>
 <main class="main">
-                <div class="container"><div class="page archive"><h2 class="single-title animated pulse faster">Bordeaux</h2><h3 class="group-title">Compost</h3>
-    <p>Vous trouverez 20 compost à <pan>Bordeaux</span>. </p><article class="archive-item">
-        <a href="/compost/bordeaux/ecole-elementaire-lac2/" class="archive-item-link">Ecole élémentaire LAC2</a>
+                <div class="container"><div class="page archive"><h2 class="single-title animated pulse faster">Bordeaux</h2><h3 class="group-title">Borne</h3>
+    <p>Vous trouverez 13 borne à <pan>Bordeaux</span>. </p><article class="archive-item">
+        <a href="/borne/nouvelle-aquitaine/bordeaux/triangle-dor-30-place-gambetta/" class="archive-item-link">Récupérateur à verre Triangle d&#39;Or 30 Place Gambetta à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/epide-bordeaux/" class="archive-item-link">EPIDE Bordeaux</a>
+        <a href="/borne/nouvelle-aquitaine/bordeaux/triangle-dor-5-rue-paul-painleve/" class="archive-item-link">Récupérateur à verre Triangle d&#39;Or 5 Rue Paul Painlevé à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/espace-beaulieu/" class="archive-item-link">espace beaulieu</a>
+        <a href="/borne/nouvelle-aquitaine/bordeaux/triangle-dor-rue-de-lhotel-de-ville/" class="archive-item-link">Récupérateur à verre Triangle d&#39;Or Rue de l&#39;Hôtel de Ville à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/impasse-de-la-prairie/" class="archive-item-link">impasse de la prairie</a>
+        <a href="/borne/nouvelle-aquitaine/bordeaux/triangle-dor-rue-fondaudege/" class="archive-item-link">Récupérateur à verre Triangle d&#39;Or Rue Fondaudège à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/jardin-la-croix-sud/" class="archive-item-link">Jardin &#34;La Croix Sud&#34;</a>
+        <a href="/borne/nouvelle-aquitaine/bordeaux/victoire-1-place-francis-de-pressense/" class="archive-item-link">Récupérateur à verre Victoire 1 Place Francis de Pressensé à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/jardin-arc-en-fleurs/" class="archive-item-link">Jardin arc en fleurs</a>
+        <a href="/borne/nouvelle-aquitaine/bordeaux/victoire-place-de-la-victoire/" class="archive-item-link">Récupérateur à verre Victoire Place de la Victoire à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/jardin-botanique/" class="archive-item-link">Jardin Botanique</a>
+        <a href="/borne/nouvelle-aquitaine/bordeaux/ecole-maternelle-bechade-rue-de-madagascar/" class="archive-item-link">Récupérateur à verre École Maternelle Béchade Rue de Madagascar à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/jardin-dorignac/" class="archive-item-link">Jardin d&#39;Orignac</a>
+        <a href="/borne/nouvelle-aquitaine/bordeaux/ecole-maternelle-le-point-du-jour-rue-leon-blum/" class="archive-item-link">Récupérateur à verre École maternelle Le Point du Jour Rue Léon Blum à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/jardin-de-la-bechade/" class="archive-item-link">Jardin de la Béchade</a>
+        <a href="/borne/nouvelle-aquitaine/bordeaux/ecole-elementaire-barbey-allee-de-lecole-sante-navale/" class="archive-item-link">Récupérateur à verre École élémentaire Barbey Allée de l&#39;École Santé Navale à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/jardin-parc-et-riviere/" class="archive-item-link">jardin parc et rivière</a>
+        <a href="/borne/nouvelle-aquitaine/bordeaux/ecole-elementaire-du-vieux-bordeaux-rue-du-pont-de-la-mousque/" class="archive-item-link">Récupérateur à verre École élémentaire du Vieux Bordeaux Rue du Pont de la Mousque à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/jardin-partage-saint-seurin--clos-serein/" class="archive-item-link">Jardin Partagé Saint-Seurin - Clos Serein</a>
+        <a href="/borne/nouvelle-aquitaine/bordeaux/ecole-elementaire-stehelin-rue-domion/" class="archive-item-link">Récupérateur à verre École élémentaire Stéhélin Rue Domion à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/kieser/" class="archive-item-link">Kieser</a>
+        <a href="/borne/nouvelle-aquitaine/bordeaux/o-qg-quai-de-paludate/" class="archive-item-link">Récupérateur à verre Ô QG Quai de Paludate à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/lagence-creative/" class="archive-item-link">L&#39;Agence Créative</a>
+        <a href="/borne/nouvelle-aquitaine/bordeaux/" class="archive-item-link">Tous les récupérateurs de verre à Bordeaux</a>
+    </article><h3 class="group-title">Compost</h3>
+    <p>Vous trouverez 7 compost à <pan>Bordeaux</span>. </p><article class="archive-item">
+        <a href="/compost/nouvelle-aquitaine/bordeaux/aire-de-compostage-du-port-de-la-lune-7-rue-henri-collet/" class="archive-item-link">Compost public Aire de compostage du Port de la Lune 7 Rue Henri Collet à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/la-chiffone-rit/" class="archive-item-link">La Chiffone Rit</a>
+        <a href="/compost/nouvelle-aquitaine/bordeaux/allees-de-chartres--metpark-allees-de-chartres/" class="archive-item-link">Compost public Allées De Chartres - Metpark Allées de Chartres à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/le-ponant/" class="archive-item-link">Le ponant</a>
+        <a href="/compost/nouvelle-aquitaine/bordeaux/bacalan-rue-du-professeur-villemin/" class="archive-item-link">Compost public Bacalan Rue du Professeur Villemin à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/les-tuileries/" class="archive-item-link">les tuileries</a>
+        <a href="/compost/nouvelle-aquitaine/bordeaux/bastide-niel-75-rue-raymond-lavigne/" class="archive-item-link">Compost public Bastide Niel 75 Rue Raymond Lavigne à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/lombriere/" class="archive-item-link">lombrière</a>
+        <a href="/compost/nouvelle-aquitaine/bordeaux/bastide-niel-87-rue-raymond-lavigne/" class="archive-item-link">Compost public Bastide Niel 87 Rue Raymond Lavigne à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/maison-badaia/" class="archive-item-link">Maison Badaia</a>
+        <a href="/compost/nouvelle-aquitaine/bordeaux/bastide-niel-allee-serr/" class="archive-item-link">Compost public Bastide Niel Allée Serr à Bordeaux</a>
     </article><article class="archive-item">
-        <a href="/compost/bordeaux/maison-ronald-mc-donald/" class="archive-item-link">Maison Ronald Mc Donald</a>
-    </article><article class="archive-item">
-        <a href="/compost/bordeaux/micro-foret/" class="archive-item-link">Micro-forêt</a>
+        <a href="/compost/nouvelle-aquitaine/bordeaux/bastide-niel-avenue-abadie/" class="archive-item-link">Compost public Bastide Niel Avenue Abadie à Bordeaux</a>
     </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
                         <a href="/cities/bordeaux/">1</a>
@@ -125,7 +153,7 @@
                     <span class="page-link" aria-hidden="true">&hellip;</span>
                 </li><li class="page-item ">
                     <span class="page-link">
-                        <a href="/cities/bordeaux/page/17/">17</a>
+                        <a href="/cities/bordeaux/page/18/">18</a>
                     </span>
                 </li></ul></div></div>
             </main><footer class="footer">
@@ -138,7 +166,7 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="Afficher les Commentaires">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10},"search":{"algoliaAppID":"IQ0PPT957C","algoliaIndex":"lebongeste","algoliaSearchKey":"2f1efa0eab58de113ad43babe81520d4","highlightTag":"em","maxResultLength":10,"noResultsFound":"Aucun résultat trouvé","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
             gtag('config', 'UA-220940800-1');
         </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-220940800-1" async></script></body>

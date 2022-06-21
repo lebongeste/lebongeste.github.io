@@ -26,7 +26,18 @@
             <a href="/" title="Le bon geste">Le bon geste</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Actualité </a><a class="menu-item" href="/borne"> Borne d&#39;appoint </a><a class="menu-item" href="/compost"> Compost </a><a class="menu-item" href="/guide"> Guides écologiques </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Actualité </a><a class="menu-item" href="/borne"> Borne d&#39;appoint </a><a class="menu-item" href="/compost"> Compost </a><a class="menu-item" href="/guide"> Guides écologiques </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Chercher">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clair">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a>
             </div>
@@ -42,7 +53,23 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Actualité</a><a class="menu-item" href="/borne" title="">Borne d&#39;appoint</a><a class="menu-item" href="/compost" title="">Compost</a><a class="menu-item" href="/guide" title="">Guides écologiques</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Chercher">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clair">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Annuler
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Actualité</a><a class="menu-item" href="/borne" title="">Borne d&#39;appoint</a><a class="menu-item" href="/compost" title="">Compost</a><a class="menu-item" href="/guide" title="">Guides écologiques</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
@@ -54,65 +81,65 @@
     <div id="search-dropdown-mobile"></div>
 </div>
 <main class="main">
-                <div class="container"><div class="page archive" ><a href="/cities/eysines"><h3 class="group-title">Conteneur à verre à Eysines</h3></a><article class="archive-item">
-                        <a href="/borne/eysines/borne-verre-rue-des-treytins/" class="archive-item-link">Récupérateur de verre Rue des Treytins</a>
+                <div class="container"><div class="page archive" ><a href="/cities/floirac"><h3 class="group-title">Conteneur à verre à Floirac</h3></a><article class="archive-item">
+                        <a href="/borne/floirac/borne-verre-rue-massenet/" class="archive-item-link">Récupérateur de verre Rue Massenet</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/eysines/borne-verre-rue-du-8-mai-1945/" class="archive-item-link">Récupérateur de verre Rue du 8 Mai 1945</a>
+                        <a href="/borne/floirac/borne-verre-rue-rene-cassagne/" class="archive-item-link">Récupérateur de verre Rue René Cassagne</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/eysines/borne-verre-rue-du-champ-de-courses/" class="archive-item-link">Récupérateur de verre Rue du Champ de Courses</a>
+                        <a href="/borne/floirac/borne-verre-rue-saint-leu/" class="archive-item-link">Récupérateur de verre Rue Saint-Leu</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/eysines/borne-verre-rue-du-vignan/" class="archive-item-link">Récupérateur de verre Rue du Vignan</a>
+                        <a href="/borne/floirac/borne-verre-rue-yves-du-manoir/" class="archive-item-link">Récupérateur de verre Rue Yves du Manoir</a>
+                        <span class="archive-item-date">01-01</span>
+                    </article><a href="/cities/gradignan"><h3 class="group-title">Conteneur à verre à Gradignan</h3></a><article class="archive-item">
+                        <a href="/borne/gradignan/borne-verre-/" class="archive-item-link">Récupérateur de verre</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/eysines/borne-verre-rue-germaine-tillion/" class="archive-item-link">Récupérateur de verre Rue Germaine Tillion</a>
+                        <a href="/borne/gradignan/borne-verre-allee-chantemerle/" class="archive-item-link">Récupérateur de verre Allée Chantemerle</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/eysines/borne-verre-rue-jean-monnet/" class="archive-item-link">Récupérateur de verre Rue Jean Monnet</a>
+                        <a href="/borne/gradignan/borne-verre-allee-des-pins/" class="archive-item-link">Récupérateur de verre Allée des Pins</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/eysines/borne-verre-rue-lucien-piet/" class="archive-item-link">Récupérateur de verre Rue Lucien Piet</a>
+                        <a href="/borne/gradignan/borne-verre-allee-des-primeveres/" class="archive-item-link">Récupérateur de verre Allée des Primevères</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/eysines/borne-verre-rue-marguerite-duras/" class="archive-item-link">Récupérateur de verre Rue Marguerite Duras</a>
+                        <a href="/borne/gradignan/borne-verre-allee-fernand-lataste/" class="archive-item-link">Récupérateur de verre Allée Fernand Lataste</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/eysines/borne-verre-rue-rene-cassin/" class="archive-item-link">Récupérateur de verre Rue René Cassin</a>
+                        <a href="/borne/gradignan/borne-verre-allee-megevie/" class="archive-item-link">Récupérateur de verre Allée Mègevie</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/eysines/borne-verre-voie-de-bus-scolaire/" class="archive-item-link">Récupérateur de verre Voie de bus scolaire</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><a href="/cities/floirac"><h3 class="group-title">Conteneur à verre à Floirac</h3></a><article class="archive-item">
-                        <a href="/borne/floirac/borne-verre-/" class="archive-item-link">Récupérateur de verre</a>
+                        <a href="/borne/gradignan/borne-verre-avenue-de-leurope/" class="archive-item-link">Récupérateur de verre Avenue de l&#39;Europe</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/floirac/borne-verre-avenue-blanqui/" class="archive-item-link">Récupérateur de verre Avenue Blanqui</a>
+                        <a href="/borne/gradignan/borne-verre-avenue-du-marechal-juin/" class="archive-item-link">Récupérateur de verre Avenue du Maréchal Juin</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/floirac/borne-verre-avenue-paul-laffargue/" class="archive-item-link">Récupérateur de verre Avenue Paul Laffargue</a>
+                        <a href="/borne/gradignan/borne-verre-avenue-jean-larrieu/" class="archive-item-link">Récupérateur de verre Avenue Jean Larrieu</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/floirac/borne-verre-avenue-pierre-curie/" class="archive-item-link">Récupérateur de verre Avenue Pierre Curie</a>
+                        <a href="/borne/gradignan/borne-verre-avenue-saint-gery/" class="archive-item-link">Récupérateur de verre Avenue Saint-Géry</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/floirac/borne-verre-avenue-pierre-semirot/" class="archive-item-link">Récupérateur de verre Avenue Pierre Sémirot</a>
+                        <a href="/borne/gradignan/borne-verre-boulevard-de-malartic/" class="archive-item-link">Récupérateur de verre Boulevard de Malartic</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/floirac/borne-verre-chemin-de-castes/" class="archive-item-link">Récupérateur de verre Chemin de Castes</a>
+                        <a href="/borne/gradignan/borne-verre-chemin-de-catoy/" class="archive-item-link">Récupérateur de verre Chemin de Catoy</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/floirac/borne-verre-rue-des-verts-coteaux/" class="archive-item-link">Récupérateur de verre Rue des Verts Côteaux</a>
+                        <a href="/borne/gradignan/borne-verre-chemin-de-plantey/" class="archive-item-link">Récupérateur de verre Chemin de Plantey</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/floirac/borne-verre-rue-hector-berlioz/" class="archive-item-link">Récupérateur de verre Rue Hector Berlioz</a>
+                        <a href="/borne/gradignan/borne-verre-cours-du-general-de-gaulle/" class="archive-item-link">Récupérateur de verre Cours du Général de Gaulle</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/floirac/borne-verre-rue-jean-dussel/" class="archive-item-link">Récupérateur de verre Rue Jean d&#39;Ussel</a>
+                        <a href="/borne/gradignan/borne-verre-impasse-de-la-lande/" class="archive-item-link">Récupérateur de verre Impasse de la Lande</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/floirac/borne-verre-rue-jules-guesde/" class="archive-item-link">Récupérateur de verre Rue Jules Guesde</a>
+                        <a href="/borne/gradignan/borne-verre-place-des-augustins/" class="archive-item-link">Récupérateur de verre Place des Augustins</a>
                         <span class="archive-item-date">01-01</span>
                     </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
@@ -144,7 +171,7 @@
                     <span class="page-link" aria-hidden="true">&hellip;</span>
                 </li><li class="page-item ">
                     <span class="page-link">
-                        <a href="/borne/page/44/">44</a>
+                        <a href="/borne/page/43/">43</a>
                     </span>
                 </li></ul></div></div>
             </main><footer class="footer">
@@ -157,7 +184,7 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="Afficher les Commentaires">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10},"comment":{},"search":{"algoliaAppID":"IQ0PPT957C","algoliaIndex":"lebongeste","algoliaSearchKey":"2f1efa0eab58de113ad43babe81520d4","highlightTag":"em","maxResultLength":10,"noResultsFound":"Aucun résultat trouvé","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
             gtag('config', 'UA-220940800-1');
         </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-220940800-1" async></script></body>

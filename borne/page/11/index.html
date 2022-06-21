@@ -26,7 +26,18 @@
             <a href="/" title="Le bon geste">Le bon geste</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Actualité </a><a class="menu-item" href="/borne"> Borne d&#39;appoint </a><a class="menu-item" href="/compost"> Compost </a><a class="menu-item" href="/guide"> Guides écologiques </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Actualité </a><a class="menu-item" href="/borne"> Borne d&#39;appoint </a><a class="menu-item" href="/compost"> Compost </a><a class="menu-item" href="/guide"> Guides écologiques </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Chercher">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clair">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a>
             </div>
@@ -42,7 +53,23 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Actualité</a><a class="menu-item" href="/borne" title="">Borne d&#39;appoint</a><a class="menu-item" href="/compost" title="">Compost</a><a class="menu-item" href="/guide" title="">Guides écologiques</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Chercher">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clair">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Annuler
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Actualité</a><a class="menu-item" href="/borne" title="">Borne d&#39;appoint</a><a class="menu-item" href="/compost" title="">Compost</a><a class="menu-item" href="/guide" title="">Guides écologiques</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
@@ -55,64 +82,64 @@
 </div>
 <main class="main">
                 <div class="container"><div class="page archive" ><a href="/cities/bordeaux"><h3 class="group-title">Conteneur à verre à Bordeaux</h3></a><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-des-allamandiers/" class="archive-item-link">Récupérateur de verre Rue des Allamandiers</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-du-taillan/" class="archive-item-link">Récupérateur de verre Rue du Taillan</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-des-carmes/" class="archive-item-link">Récupérateur de verre Rue des Carmes</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-du-tondu/" class="archive-item-link">Récupérateur de verre Rue du Tondu</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-des-fauvettes/" class="archive-item-link">Récupérateur de verre Rue des Fauvettes</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-edmond-besse/" class="archive-item-link">Récupérateur de verre Rue Edmond Besse</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-des-freres-portmann/" class="archive-item-link">Récupérateur de verre Rue des Frères Portmann</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-ernest-renan/" class="archive-item-link">Récupérateur de verre Rue Ernest Renan</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-des-lendemains/" class="archive-item-link">Récupérateur de verre Rue des Lendemains</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-eugene-jacquet/" class="archive-item-link">Récupérateur de verre Rue Eugène Jacquet</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-des-maraichers/" class="archive-item-link">Récupérateur de verre Rue des Maraîchers</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-ferdinand-palau/" class="archive-item-link">Récupérateur de verre Rue Ferdinand Palau</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-des-poilus-1914-1918/" class="archive-item-link">Récupérateur de verre Rue des Poilus 1914-1918</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-fondaudege/" class="archive-item-link">Récupérateur de verre Rue Fondaudège</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-des-queyries/" class="archive-item-link">Récupérateur de verre Rue des Queyries</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-franc-sanson/" class="archive-item-link">Récupérateur de verre Rue Franc Sanson</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-des-sablieres/" class="archive-item-link">Récupérateur de verre Rue des Sablières</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-francis-plante/" class="archive-item-link">Récupérateur de verre Rue Francis Planté</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-des-violettes/" class="archive-item-link">Récupérateur de verre Rue des Violettes</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-francisco-ferrer/" class="archive-item-link">Récupérateur de verre Rue Francisco Ferrer</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-dieu/" class="archive-item-link">Récupérateur de verre Rue Dieu</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-franklin/" class="archive-item-link">Récupérateur de verre Rue Franklin</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-domion/" class="archive-item-link">Récupérateur de verre Rue Domion</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-franz-schrader/" class="archive-item-link">Récupérateur de verre Rue Franz Schrader</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-du-8e-regiment-dinfanterie/" class="archive-item-link">Récupérateur de verre Rue du 8e Régiment d&#39;Infanterie</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-francois-leveque/" class="archive-item-link">Récupérateur de verre Rue François Lévêque</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-du-cardinal-feltin/" class="archive-item-link">Récupérateur de verre Rue du Cardinal Feltin</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-gabriel-leglise/" class="archive-item-link">Récupérateur de verre Rue Gabriel Léglise</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-du-docteur-albert-schweitzer/" class="archive-item-link">Récupérateur de verre Rue du Docteur Albert Schweitzer</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-galin/" class="archive-item-link">Récupérateur de verre Rue Galin</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-du-docteur-rocaz/" class="archive-item-link">Récupérateur de verre Rue du Docteur Rocaz</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-gambetta/" class="archive-item-link">Récupérateur de verre Rue Gambetta</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-du-general-de-larminat/" class="archive-item-link">Récupérateur de verre Rue du Général de Larminat</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-georges-bonnac/" class="archive-item-link">Récupérateur de verre Rue Georges Bonnac</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-du-jardin-de-lars/" class="archive-item-link">Récupérateur de verre Rue du Jardin de l&#39;Ars</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-georges-de-sonneville/" class="archive-item-link">Récupérateur de verre Rue Georges de Sonneville</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-du-marechal-lyautey/" class="archive-item-link">Récupérateur de verre Rue du Maréchal Lyautey</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-gustave-carde/" class="archive-item-link">Récupérateur de verre Rue Gustave Carde</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/bordeaux/borne-verre-rue-du-moulin-rouge/" class="archive-item-link">Récupérateur de verre Rue du Moulin Rouge</a>
+                        <a href="/borne/bordeaux/borne-verre-rue-gustave-eiffel/" class="archive-item-link">Récupérateur de verre Rue Gustave Eiffel</a>
                         <span class="archive-item-date">01-01</span>
                     </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
@@ -144,7 +171,7 @@
                     <span class="page-link" aria-hidden="true">&hellip;</span>
                 </li><li class="page-item ">
                     <span class="page-link">
-                        <a href="/borne/page/44/">44</a>
+                        <a href="/borne/page/43/">43</a>
                     </span>
                 </li></ul></div></div>
             </main><footer class="footer">
@@ -157,7 +184,7 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="Afficher les Commentaires">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10},"comment":{},"search":{"algoliaAppID":"IQ0PPT957C","algoliaIndex":"lebongeste","algoliaSearchKey":"2f1efa0eab58de113ad43babe81520d4","highlightTag":"em","maxResultLength":10,"noResultsFound":"Aucun résultat trouvé","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
             gtag('config', 'UA-220940800-1');
         </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-220940800-1" async></script></body>

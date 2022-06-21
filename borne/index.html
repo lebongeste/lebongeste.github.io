@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="robots" content="noodp" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
-        <title>Tous Trouver un conteneur à verre le plus proche - Le bon geste</title><meta name="Description" content="Le dernier thème dont vous aurez besoin. Peut-être"><meta property="og:title" content="Trouver un conteneur à verre le plus proche" />
+        <title>Trouver un conteneur à verre le plus proche - Le bon geste</title><meta name="Description" content="Le dernier thème dont vous aurez besoin. Peut-être"><meta property="og:title" content="Trouver un conteneur à verre le plus proche" />
 <meta property="og:description" content="Le dernier thème dont vous aurez besoin. Peut-être" />
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://www.lebongeste.co/borne/" />
@@ -26,7 +26,18 @@
             <a href="/" title="Le bon geste">Le bon geste</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Actualité </a><a class="menu-item" href="/borne"> Borne d&#39;appoint </a><a class="menu-item" href="/compost"> Compost </a><a class="menu-item" href="/guide"> Guides écologiques </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Actualité </a><a class="menu-item" href="/borne"> Borne d&#39;appoint </a><a class="menu-item" href="/compost"> Compost </a><a class="menu-item" href="/decheterie"> Décheterie </a><a class="menu-item" href="/guide"> Guides écologiques </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Chercher">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clair">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a>
             </div>
@@ -42,7 +53,23 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Actualité</a><a class="menu-item" href="/borne" title="">Borne d&#39;appoint</a><a class="menu-item" href="/compost" title="">Compost</a><a class="menu-item" href="/guide" title="">Guides écologiques</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Chercher">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clair">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Annuler
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Actualité</a><a class="menu-item" href="/borne" title="">Borne d&#39;appoint</a><a class="menu-item" href="/compost" title="">Compost</a><a class="menu-item" href="/decheterie" title="">Décheterie</a><a class="menu-item" href="/guide" title="">Guides écologiques</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
@@ -54,7 +81,19 @@
     <div id="search-dropdown-mobile"></div>
 </div>
 <main class="main">
-                <div class="container"><div class="page archive" ><h1 id="les-récupérateurs-de-verre-ou-bornes-dappoints">Les récupérateurs de verre ou bornes d&rsquo;appoints</h1>
+                <div class="container"><div class="page archive" ><ol class="breadcrumb">
+    <li><a href="/">Home</a></li>
+    
+    
+      
+    
+      
+        <li><a href="/borne">Borne</a></li>
+      
+    
+      
+    
+  </ol><h1 id="les-récupérateurs-de-verre-ou-bornes-dappoints">Les récupérateurs de verre ou bornes d&rsquo;appoints</h1>
 <p>Des bornes d&rsquo;appoints sont à disposition partout en France pour permettre la récupération du verre afin de le recycler. Des passages régulier sont mis en place par les villes pour récupérer le verre laissez dans les récupérateur de verre.</p>
 <h2 id="quel-verre-récupérer">Quel verre récupérer</h2>
 <p>Le verre est un des matériaux qui est recyclable a 100%, il faut cependant respecter quelques règles de tris.</p>
@@ -80,85 +119,21 @@ Dans certains pays on pourra séparer les verres par couleur (verre vert, verre 
 <h3 id="les-borne-dappoint-de-verre-publiques-en-france">Les borne d&rsquo;appoint de verre publiques en France</h3>
 <p>Utilisez notre carte intéractive pour trouver le conteneur à verre le plus proche de chez vous.</p>
 <iframe width="100%" height="100%" frameborder="0" allowfullscreen src="https://umap.openstreetmap.fr/fr/map/test_708941?feature=AMAP Gourmandignes#17/44.8567592/-0.5305418"></iframe>
-<a href="/cities/ambar%c3%a8s-et-lagrave"><h3 class="group-title">Conteneur à verre à Ambarès-et-Lagrave</h3></a><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-/" class="archive-item-link">Récupérateur de verre</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-allee-des-poetes/" class="archive-item-link">Récupérateur de verre Allée des Poètes</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-avenue-bel-air/" class="archive-item-link">Récupérateur de verre Avenue Bel Air</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-avenue-de-grandjean/" class="archive-item-link">Récupérateur de verre Avenue de Grandjean</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-avenue-de-jourdane/" class="archive-item-link">Récupérateur de verre Avenue de Jourdane</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-avenue-de-leurope/" class="archive-item-link">Récupérateur de verre Avenue de l&#39;Europe</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-avenue-leon-blum/" class="archive-item-link">Récupérateur de verre Avenue Léon Blum</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-avenue-pierre-barre/" class="archive-item-link">Récupérateur de verre Avenue Pierre Barre</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-rue-boris-vian/" class="archive-item-link">Récupérateur de verre Rue Boris Vian</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-rue-de-barbere/" class="archive-item-link">Récupérateur de verre Rue de Barbère</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-rue-de-bassens/" class="archive-item-link">Récupérateur de verre Rue de Bassens</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-rue-de-la-mouline/" class="archive-item-link">Récupérateur de verre Rue de la Mouline</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-rue-de-la-vierge/" class="archive-item-link">Récupérateur de verre Rue de la Vierge</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-rue-de-saint-denis/" class="archive-item-link">Récupérateur de verre Rue de Saint-Denis</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-rue-des-blandats/" class="archive-item-link">Récupérateur de verre Rue des Blandats</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-rue-du-broustey/" class="archive-item-link">Récupérateur de verre Rue du Broustey</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-rue-jeanne-de-lestonnat/" class="archive-item-link">Récupérateur de verre Rue Jeanne de Lestonnat</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-rue-lamartine/" class="archive-item-link">Récupérateur de verre Rue Lamartine</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-rue-paulin-de-nole/" class="archive-item-link">Récupérateur de verre Rue Paulin de Nole</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><article class="archive-item">
-                        <a href="/borne/ambares-et-lagrave/borne-verre-rue-pierre-monimeau/" class="archive-item-link">Récupérateur de verre Rue Pierre Monimeau</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><ul class="pagination"><li class="page-item active">
-                    <span class="page-link">
-                        <a href="/borne/">1</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/borne/page/2/">2</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/borne/page/3/">3</a>
-                    </span>
-                </li><li class="page-item ">
-                    <span class="page-link" aria-hidden="true">&hellip;</span>
-                </li><li class="page-item ">
-                    <span class="page-link">
-                        <a href="/borne/page/44/">44</a>
-                    </span>
-                </li></ul></div></div>
+<p> Tous les <span>bornes</span> dans votre région</p>
+            <li><a href="/borne/auvergne-rhone-alpes/" class="archive-item-link">Tous les récupérateurs de verre en Auvergne-Rhône-Alpes</a></li>       
+        
+            <li><a href="/borne/nouvelle-aquitaine/" class="archive-item-link">Tous les récupérateurs de verre en Nouvelle-Aquitaine</a></li>       
+        
+            <li><a href="/borne/pays-de-la-loire/" class="archive-item-link">Tous les récupérateurs de verre en Pays de la Loire</a></li>       
+        
+            <li><a href="/borne/provence-alpes-cote-dazur/" class="archive-item-link">Tous les récupérateurs de verre en Provence-Alpes-Côte d&#39;Azur</a></li>       
+        
+            <li><a href="/borne/ile-de-france/" class="archive-item-link">Tous les récupérateurs de verre en Île-de-France</a></li>       
+        
+
+
+
+</div></div>
             </main><footer class="footer">
         <div class="footer-container"><div class="footer-line">Propulsé par <a href="https://gohugo.io/" target="_blank" rel="noopener noreffer" title="Hugo 0.93.2">Hugo</a> | Thème - <a href="https://github.com/dillonzq/LoveIt" target="_blank" rel="noopener noreffer" title="LoveIt 0.2.10"><i class="far fa-kiss-wink-heart fa-fw"></i> LoveIt</a>
                 </div><div class="footer-line"><i class="far fa-copyright fa-fw"></i><span itemprop="copyrightYear">2022</span><span class="author" itemprop="copyrightHolder">&nbsp;<a href="/" target="_blank"></a></span></div>
@@ -169,7 +144,7 @@ Dans certains pays on pourra séparer les verres par couleur (verre vert, verre 
             </a><a href="#" id="view-comments" class="fixed-button" title="Afficher les Commentaires">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10},"search":{"algoliaAppID":"IQ0PPT957C","algoliaIndex":"lebongeste","algoliaSearchKey":"2f1efa0eab58de113ad43babe81520d4","highlightTag":"em","maxResultLength":10,"noResultsFound":"Aucun résultat trouvé","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
             gtag('config', 'UA-220940800-1');
         </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-220940800-1" async></script></body>

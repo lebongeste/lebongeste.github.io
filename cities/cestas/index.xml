@@ -4,13 +4,39 @@
         <link>https://www.lebongeste.co/cities/cestas/</link>
         <description>Cestas - city - Le bon geste</description>
         <generator>Hugo -- gohugo.io</generator><language>fr-fr</language><atom:link href="https://www.lebongeste.co/cities/cestas/" rel="self" type="application/rss+xml" /><item>
-    <title>Récupérateur de verre Avenue du Maréchal de Lattre de Tassigny</title>
-    <link>https://www.lebongeste.co/borne/cestas/borne-verre-avenue-du-marechal-de-lattre-de-tassigny/</link>
+    <title>Compost public Magonty à Cestas</title>
+    <link>https://www.lebongeste.co/compost/nouvelle-aquitaine/cestas/magonty/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>Auteur</author>
-    <guid>https://www.lebongeste.co/borne/cestas/borne-verre-avenue-du-marechal-de-lattre-de-tassigny/</guid>
-    <description><![CDATA[Adresse : Avenue du Maréchal de Lattre de Tassigny Cestas
-   Région Commune     Nouvelle-Aquitaine Bordeaux    Carte Coordonnées 44.7821149 -0.690078
-Information supplémentaire    Type     Aérien    Avis ]]></description>
+    <guid>https://www.lebongeste.co/compost/nouvelle-aquitaine/cestas/magonty/</guid>
+    <description><![CDATA[Adresse : Magonty 33600 Cestas
+   Région Commune     Nouvelle-Aquitaine $commune    Carte Coordonnées -0.7019201999999999 44.7786573
+Information supplémentaire    Type     Domaine public ouvert a tous    Contact: bmcompost@bordeaux-metropole.fr
+Remarques nan
+Avis ]]></description>
+</item><item>
+    <title>Récupérateur à verre Le Petit Gazinet Avenue du Maréchal de Lattre de Tassigny à Cestas</title>
+    <link>https://www.lebongeste.co/borne/nouvelle-aquitaine/cestas/le-petit-gazinet-avenue-du-marechal-de-lattre-de-tassigny/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://www.lebongeste.co/borne/nouvelle-aquitaine/cestas/le-petit-gazinet-avenue-du-marechal-de-lattre-de-tassigny/</guid>
+    <description><![CDATA[Adresse : Le Petit Gazinet Avenue du Maréchal de Lattre de Tassigny Cestas
+   Région Commune     Nouvelle-Aquitaine $commune    Carte Coordonnées -0.690078 44.7821149
+Information supplémentaire    Type     Aérien    Remarques nan
+Avis ]]></description>
+</item><item>
+    <title>Tous les composts partagés à Cestas</title>
+    <link>https://www.lebongeste.co/compost/nouvelle-aquitaine/cestas/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://www.lebongeste.co/compost/nouvelle-aquitaine/cestas/</guid>
+    <description><![CDATA[Trouvez le compost partagé le plus proche de chez vous à Cestas]]></description>
+</item><item>
+    <title>Tous les récupérateurs de verre à Cestas</title>
+    <link>https://www.lebongeste.co/borne/nouvelle-aquitaine/cestas/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://www.lebongeste.co/borne/nouvelle-aquitaine/cestas/</guid>
+    <description><![CDATA[Trouvez le récupérateur de verre le plus proche de chez vous à Cestas]]></description>
 </item></channel>
 </rss>

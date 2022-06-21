@@ -4,6 +4,20 @@
         <link>https://www.lebongeste.co/cities/</link>
         <description>Cities - city - Le bon geste</description>
         <generator>Hugo -- gohugo.io</generator><language>fr-fr</language><atom:link href="https://www.lebongeste.co/cities/" rel="self" type="application/rss+xml" /><item>
+    <title>$ville</title>
+    <link>https://www.lebongeste.co/cities/ville/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://www.lebongeste.co/cities/ville/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Albigny-sur-Saône</title>
+    <link>https://www.lebongeste.co/cities/albigny-sur-sa%C3%B4ne/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://www.lebongeste.co/cities/albigny-sur-sa%C3%B4ne/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Ambarès-et-Lagrave</title>
     <link>https://www.lebongeste.co/cities/ambar%C3%A8s-et-lagrave/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
@@ -18,11 +32,32 @@
     <guid>https://www.lebongeste.co/cities/amb%C3%A8s/</guid>
     <description><![CDATA[]]></description>
 </item><item>
+    <title>Angers</title>
+    <link>https://www.lebongeste.co/cities/angers/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://www.lebongeste.co/cities/angers/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
     <title>Artigues-près-Bordeaux</title>
     <link>https://www.lebongeste.co/cities/artigues-pr%C3%A8s-bordeaux/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>Auteur</author>
     <guid>https://www.lebongeste.co/cities/artigues-pr%C3%A8s-bordeaux/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Aspremont</title>
+    <link>https://www.lebongeste.co/cities/aspremont/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://www.lebongeste.co/cities/aspremont/</guid>
+    <description><![CDATA[]]></description>
+</item><item>
+    <title>Avrillé</title>
+    <link>https://www.lebongeste.co/cities/avrill%C3%A9/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://www.lebongeste.co/cities/avrill%C3%A9/</guid>
     <description><![CDATA[]]></description>
 </item><item>
     <title>Bassens</title>
@@ -32,46 +67,11 @@
     <guid>https://www.lebongeste.co/cities/bassens/</guid>
     <description><![CDATA[]]></description>
 </item><item>
-    <title>Blanquefort</title>
-    <link>https://www.lebongeste.co/cities/blanquefort/</link>
+    <title>Beaulieu-sur-Mer</title>
+    <link>https://www.lebongeste.co/cities/beaulieu-sur-mer/</link>
     <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
     <author>Auteur</author>
-    <guid>https://www.lebongeste.co/cities/blanquefort/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Bordeaux</title>
-    <link>https://www.lebongeste.co/cities/bordeaux/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-    <author>Auteur</author>
-    <guid>https://www.lebongeste.co/cities/bordeaux/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Bouliac</title>
-    <link>https://www.lebongeste.co/cities/bouliac/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-    <author>Auteur</author>
-    <guid>https://www.lebongeste.co/cities/bouliac/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Bruges</title>
-    <link>https://www.lebongeste.co/cities/bruges/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-    <author>Auteur</author>
-    <guid>https://www.lebongeste.co/cities/bruges/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Bègles</title>
-    <link>https://www.lebongeste.co/cities/b%C3%A8gles/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-    <author>Auteur</author>
-    <guid>https://www.lebongeste.co/cities/b%C3%A8gles/</guid>
-    <description><![CDATA[]]></description>
-</item><item>
-    <title>Canéjan</title>
-    <link>https://www.lebongeste.co/cities/can%C3%A9jan/</link>
-    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
-    <author>Auteur</author>
-    <guid>https://www.lebongeste.co/cities/can%C3%A9jan/</guid>
+    <guid>https://www.lebongeste.co/cities/beaulieu-sur-mer/</guid>
     <description><![CDATA[]]></description>
 </item></channel>
 </rss>

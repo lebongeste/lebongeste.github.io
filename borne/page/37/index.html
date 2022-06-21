@@ -26,7 +26,18 @@
             <a href="/" title="Le bon geste">Le bon geste</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Actualité </a><a class="menu-item" href="/borne"> Borne d&#39;appoint </a><a class="menu-item" href="/compost"> Compost </a><a class="menu-item" href="/guide"> Guides écologiques </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Actualité </a><a class="menu-item" href="/borne"> Borne d&#39;appoint </a><a class="menu-item" href="/compost"> Compost </a><a class="menu-item" href="/guide"> Guides écologiques </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Chercher">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clair">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a>
             </div>
@@ -42,7 +53,23 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Actualité</a><a class="menu-item" href="/borne" title="">Borne d&#39;appoint</a><a class="menu-item" href="/compost" title="">Compost</a><a class="menu-item" href="/guide" title="">Guides écologiques</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Chercher">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clair">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Annuler
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Actualité</a><a class="menu-item" href="/borne" title="">Borne d&#39;appoint</a><a class="menu-item" href="/compost" title="">Compost</a><a class="menu-item" href="/guide" title="">Guides écologiques</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
@@ -54,65 +81,65 @@
     <div id="search-dropdown-mobile"></div>
 </div>
 <main class="main">
-                <div class="container"><div class="page archive" ><a href="/cities/pessac"><h3 class="group-title">Conteneur à verre à Pessac</h3></a><article class="archive-item">
-                        <a href="/borne/pessac/borne-verre-rue-jean-babin/" class="archive-item-link">Récupérateur de verre Rue Jean Babin</a>
+                <div class="container"><div class="page archive" ><a href="/cities/saint-louis-de-montferrand"><h3 class="group-title">Conteneur à verre à Saint-Louis-de-Montferrand</h3></a><article class="archive-item">
+                        <a href="/borne/saint-louis-de-montferrand/borne-verre-avenue-de-la-garonne/" class="archive-item-link">Récupérateur de verre Avenue de la Garonne</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/pessac/borne-verre-rue-jean-philippe-rameau/" class="archive-item-link">Récupérateur de verre Rue Jean Philippe Rameau</a>
+                        <a href="/borne/saint-louis-de-montferrand/borne-verre-d-10/" class="archive-item-link">Récupérateur de verre D 10</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/pessac/borne-verre-rue-joseph-paul-boncour/" class="archive-item-link">Récupérateur de verre Rue Joseph Paul-Boncour</a>
+                        <a href="/borne/saint-louis-de-montferrand/borne-verre-impasse-andre-brisson/" class="archive-item-link">Récupérateur de verre Impasse André Brisson</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/pessac/borne-verre-rue-larouillat/" class="archive-item-link">Récupérateur de verre Rue Larouillat</a>
+                        <a href="/borne/saint-louis-de-montferrand/borne-verre-impasse-de-la-paix/" class="archive-item-link">Récupérateur de verre Impasse de la Paix</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/pessac/borne-verre-rue-lucie-aubrac/" class="archive-item-link">Récupérateur de verre Rue Lucie Aubrac</a>
+                        <a href="/borne/saint-louis-de-montferrand/borne-verre-rue-albert-chalaud/" class="archive-item-link">Récupérateur de verre Rue Albert Chalaud</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/pessac/borne-verre-rue-leo-ferre/" class="archive-item-link">Récupérateur de verre Rue Léo Ferre</a>
+                        <a href="/borne/saint-louis-de-montferrand/borne-verre-rue-arnaud-lafaye/" class="archive-item-link">Récupérateur de verre Rue Arnaud Lafaye</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/pessac/borne-verre-rue-paul-eluard/" class="archive-item-link">Récupérateur de verre Rue Paul Éluard</a>
+                        <a href="/borne/saint-louis-de-montferrand/borne-verre-rue-roger-espagnet/" class="archive-item-link">Récupérateur de verre Rue Roger Espagnet</a>
+                        <span class="archive-item-date">01-01</span>
+                    </article><a href="/cities/saint-m%c3%a9dard-en-jalles"><h3 class="group-title">Conteneur à verre à Saint-Médard-en-Jalles</h3></a><article class="archive-item">
+                        <a href="/borne/saint-medard-en-jalles/borne-verre-/" class="archive-item-link">Récupérateur de verre</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/pessac/borne-verre-rue-pontet-lamartine/" class="archive-item-link">Récupérateur de verre Rue Pontet Lamartine</a>
+                        <a href="/borne/saint-medard-en-jalles/borne-verre-allee-des-bruyeres/" class="archive-item-link">Récupérateur de verre Allée des Bruyères</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/pessac/borne-verre-rue-villeneuve/" class="archive-item-link">Récupérateur de verre Rue Villeneuve</a>
+                        <a href="/borne/saint-medard-en-jalles/borne-verre-allee-du-berdus/" class="archive-item-link">Récupérateur de verre Allée du Berdus</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/pessac/borne-verre-rue-xavier-arnozan/" class="archive-item-link">Récupérateur de verre Rue Xavier Arnozan</a>
+                        <a href="/borne/saint-medard-en-jalles/borne-verre-allee-du-pont-de-la-pierre/" class="archive-item-link">Récupérateur de verre Allée du Pont de la Pierre</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/pessac/borne-verre-rue-etienne-marcel/" class="archive-item-link">Récupérateur de verre Rue Étienne Marcel</a>
-                        <span class="archive-item-date">01-01</span>
-                    </article><a href="/cities/saint-aubin-de-m%c3%a9doc"><h3 class="group-title">Conteneur à verre à Saint-Aubin-de-Médoc</h3></a><article class="archive-item">
-                        <a href="/borne/saint-aubin-de-medoc/borne-verre-/" class="archive-item-link">Récupérateur de verre</a>
+                        <a href="/borne/saint-medard-en-jalles/borne-verre-allee-du-preuilha/" class="archive-item-link">Récupérateur de verre Allée du Preuilhà</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/saint-aubin-de-medoc/borne-verre-avenue-du-lycee/" class="archive-item-link">Récupérateur de verre Avenue du Lycée</a>
+                        <a href="/borne/saint-medard-en-jalles/borne-verre-allee-jules-vedrines/" class="archive-item-link">Récupérateur de verre Allée Jules Védrines</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/saint-aubin-de-medoc/borne-verre-chemin-du-commandant-cousteau/" class="archive-item-link">Récupérateur de verre Chemin du Commandant Cousteau</a>
+                        <a href="/borne/saint-medard-en-jalles/borne-verre-avenue-anatole-france/" class="archive-item-link">Récupérateur de verre Avenue Anatole France</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/saint-aubin-de-medoc/borne-verre-route-de-germignan/" class="archive-item-link">Récupérateur de verre Route de Germignan</a>
+                        <a href="/borne/saint-medard-en-jalles/borne-verre-avenue-blaise-pascal/" class="archive-item-link">Récupérateur de verre Avenue Blaise Pascal</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/saint-aubin-de-medoc/borne-verre-route-de-hourton/" class="archive-item-link">Récupérateur de verre Route de Hourton</a>
+                        <a href="/borne/saint-medard-en-jalles/borne-verre-avenue-de-berlincan/" class="archive-item-link">Récupérateur de verre Avenue de Berlincan</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/saint-aubin-de-medoc/borne-verre-route-de-joli-bois/" class="archive-item-link">Récupérateur de verre Route de Joli Bois</a>
+                        <a href="/borne/saint-medard-en-jalles/borne-verre-avenue-de-mazeau/" class="archive-item-link">Récupérateur de verre Avenue de Mazeau</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/saint-aubin-de-medoc/borne-verre-route-de-mounic/" class="archive-item-link">Récupérateur de verre Route de Mounic</a>
+                        <a href="/borne/saint-medard-en-jalles/borne-verre-avenue-du-general-de-gaulle/" class="archive-item-link">Récupérateur de verre Avenue du Général de Gaulle</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/saint-aubin-de-medoc/borne-verre-route-de-picot/" class="archive-item-link">Récupérateur de verre Route de Picot</a>
+                        <a href="/borne/saint-medard-en-jalles/borne-verre-chemin-de-linas/" class="archive-item-link">Récupérateur de verre Chemin de Linas</a>
                         <span class="archive-item-date">01-01</span>
                     </article><article class="archive-item">
-                        <a href="/borne/saint-aubin-de-medoc/borne-verre-route-de-saint-medard/" class="archive-item-link">Récupérateur de verre Route de Saint-Médard</a>
+                        <a href="/borne/saint-medard-en-jalles/borne-verre-chemin-du-roy/" class="archive-item-link">Récupérateur de verre Chemin du Roy</a>
                         <span class="archive-item-date">01-01</span>
                     </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
@@ -144,7 +171,7 @@
                     <span class="page-link" aria-hidden="true">&hellip;</span>
                 </li><li class="page-item ">
                     <span class="page-link">
-                        <a href="/borne/page/44/">44</a>
+                        <a href="/borne/page/43/">43</a>
                     </span>
                 </li></ul></div></div>
             </main><footer class="footer">
@@ -157,7 +184,7 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="Afficher les Commentaires">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10},"comment":{}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10},"comment":{},"search":{"algoliaAppID":"IQ0PPT957C","algoliaIndex":"lebongeste","algoliaSearchKey":"2f1efa0eab58de113ad43babe81520d4","highlightTag":"em","maxResultLength":10,"noResultsFound":"Aucun résultat trouvé","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
             gtag('config', 'UA-220940800-1');
         </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-220940800-1" async></script></body>

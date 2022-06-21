@@ -3,17 +3,15 @@
         <title>Le bon geste</title>
         <link>https://www.lebongeste.co/</link>
         <description>Le bon geste</description>
-        <generator>Hugo -- gohugo.io</generator><language>fr-fr</language><lastBuildDate>Wed, 06 Apr 2022 00:00:00 &#43;0000</lastBuildDate>
+        <generator>Hugo -- gohugo.io</generator><language>fr-fr</language><lastBuildDate>Mon, 20 Jun 2022 17:55:28 &#43;0800</lastBuildDate>
             <atom:link href="https://www.lebongeste.co/index.xml" rel="self" type="application/rss+xml" />
         <item>
-    <title>Ajout de ville: Bordeaux</title>
-    <link>https://www.lebongeste.co/posts/ajout-de-ville-bordeaux/</link>
-    <pubDate>Tue, 01 Oct 2019 17:55:28 &#43;0800</pubDate>
+    <title>Nouveauté sur le site: Compost, borne d&#39;appoint, décheterie</title>
+    <link>https://www.lebongeste.co/posts/nouveaut%C3%A9-sur-le-site-compost-borne-dappoint-d%C3%A9cheterie/</link>
+    <pubDate>Mon, 20 Jun 2022 17:55:28 &#43;0800</pubDate>
     <author>Auteur</author>
-    <guid>https://www.lebongeste.co/posts/ajout-de-ville-bordeaux/</guid>
-    <description><![CDATA[Ajout d&rsquo;une nouvelle ville: Bordeaux Nous venons de rajotuer Bordeaux à l&rsquo;idex de bon geste.
-Les données à disposition sont les suivantes
- Composts partagés Bornes d&rsquo;appoint  Les composts partagés Certaines informations sont mises à disposition concernant les composts. On pourra notamment retrouvé:
- Coordonnées GPS Adresse Horaire d&rsquo;ouverture (lorsque les composts sont en libre accès) Photo (si disponible)  Les bornes d&rsquo;appoint ]]></description>
+    <guid>https://www.lebongeste.co/posts/nouveaut%C3%A9-sur-le-site-compost-borne-dappoint-d%C3%A9cheterie/</guid>
+    <description><![CDATA[Ajout des compost partagés Les composts partagés sont dorénavant listés sur le site. Les informations comprennent:
+ L&rsquo;adresse Les coordonnées GPS le type de compost Une note / remarque sur le lieu Des avis  Ajout des bornes d&rsquo;appoint volontaire de verre  L&rsquo;adresse Les coordonnées GPS le type de compost Une note / remarque sur le lieu Des avis  Ajout des décheteries  L&rsquo;adresse Les coordonnées GPS le type de compost Une note / remarque sur le lieu Des avis  Communes rajoutée:  Bordeaux Nantes Lille Paris Angers Toulouse Lyon Nice  ]]></description>
 </item></channel>
 </rss>

@@ -26,7 +26,18 @@
             <a href="/" title="Le bon geste">Le bon geste</a>
         </div>
         <div class="menu">
-            <div class="menu-inner"><a class="menu-item" href="/posts/"> Actualité </a><a class="menu-item" href="/borne"> Borne d&#39;appoint </a><a class="menu-item" href="/compost"> Compost </a><a class="menu-item" href="/guide"> Guides écologiques </a><span class="menu-item delimiter"></span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
+            <div class="menu-inner"><a class="menu-item" href="/posts/"> Actualité </a><a class="menu-item" href="/borne"> Borne d&#39;appoint </a><a class="menu-item" href="/compost"> Compost </a><a class="menu-item" href="/decheterie"> Décheterie </a><a class="menu-item" href="/guide"> Guides écologiques </a><span class="menu-item delimiter"></span><span class="menu-item search" id="search-desktop">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-desktop">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-desktop" title="Chercher">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-desktop" title="Clair">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-desktop">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </span><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
                     <i class="fas fa-adjust fa-fw"></i>
                 </a>
             </div>
@@ -42,7 +53,23 @@
                 <span></span><span></span><span></span>
             </div>
         </div>
-        <div class="menu" id="menu-mobile"><a class="menu-item" href="/posts/" title="">Actualité</a><a class="menu-item" href="/borne" title="">Borne d&#39;appoint</a><a class="menu-item" href="/compost" title="">Compost</a><a class="menu-item" href="/guide" title="">Guides écologiques</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
+        <div class="menu" id="menu-mobile"><div class="search-wrapper">
+                    <div class="search mobile" id="search-mobile">
+                        <input type="text" placeholder="Rechercher des titres, des contenus..." id="search-input-mobile">
+                        <a href="javascript:void(0);" class="search-button search-toggle" id="search-toggle-mobile" title="Chercher">
+                            <i class="fas fa-search fa-fw"></i>
+                        </a>
+                        <a href="javascript:void(0);" class="search-button search-clear" id="search-clear-mobile" title="Clair">
+                            <i class="fas fa-times-circle fa-fw"></i>
+                        </a>
+                        <span class="search-button search-loading" id="search-loading-mobile">
+                            <i class="fas fa-spinner fa-fw fa-spin"></i>
+                        </span>
+                    </div>
+                    <a href="javascript:void(0);" class="search-cancel" id="search-cancel-mobile">
+                        Annuler
+                    </a>
+                </div><a class="menu-item" href="/posts/" title="">Actualité</a><a class="menu-item" href="/borne" title="">Borne d&#39;appoint</a><a class="menu-item" href="/compost" title="">Compost</a><a class="menu-item" href="/decheterie" title="">Décheterie</a><a class="menu-item" href="/guide" title="">Guides écologiques</a><a href="javascript:void(0);" class="menu-item theme-switch" title="Changer de Thème">
                 <i class="fas fa-adjust fa-fw"></i>
             </a></div>
     </div>
@@ -55,33 +82,45 @@
 </div>
 <main class="main">
                 <div class="container"><div class="page archive"><h2 class="single-title animated pulse faster">Bruges</h2><h3 class="group-title">Borne</h3>
-    <p>Vous trouverez 2 borne à <pan>Bruges</span>. </p><article class="archive-item">
-        <a href="/borne/bruges/borne-verre-rue-savorgnan-de-brazza/" class="archive-item-link">Récupérateur de verre Rue Savorgnan de Brazza</a>
+    <p>Vous trouverez 5 borne à <pan>Bruges</span>. </p><article class="archive-item">
+        <a href="/borne/nouvelle-aquitaine/bruges/rue-frederic-mistral/" class="archive-item-link">Récupérateur à verre Rue Frédéric Mistral à Bruges</a>
     </article><article class="archive-item">
-        <a href="/borne/bruges/borne-verre-rue-theodore-bellemer/" class="archive-item-link">Récupérateur de verre Rue Théodore Bellemer</a>
+        <a href="/borne/nouvelle-aquitaine/bruges/villabois-chemin-de-bacchus/" class="archive-item-link">Récupérateur à verre Villabois Chemin de Bacchus à Bruges</a>
+    </article><article class="archive-item">
+        <a href="/borne/nouvelle-aquitaine/bruges/villabois-rue-de-daugere/" class="archive-item-link">Récupérateur à verre Villabois Rue de Daugère à Bruges</a>
+    </article><article class="archive-item">
+        <a href="/borne/nouvelle-aquitaine/bruges/ecole-elementaire-camille-claudel-12-rue-theodore-bellemer/" class="archive-item-link">Récupérateur à verre École élémentaire Camille Claudel 12 Rue Théodore Bellemer à Bruges</a>
+    </article><article class="archive-item">
+        <a href="/borne/nouvelle-aquitaine/bruges/" class="archive-item-link">Tous les récupérateurs de verre à Bruges</a>
     </article><h3 class="group-title">Compost</h3>
-    <p>Vous trouverez 11 compost à <pan>Bruges</span>. </p><article class="archive-item">
-        <a href="/compost/bruges/alsh-jacques-prevert/" class="archive-item-link">ALSH Jacques Prévert</a>
+    <p>Vous trouverez 14 compost à <pan>Bruges</span>. </p><article class="archive-item">
+        <a href="/compost/nouvelle-aquitaine/bruges/groupe-scolaire-jacques-prevert-place-marcel-saura/" class="archive-item-link">Compost public Groupe scolaire Jacques Prévert Place Marcel Saura à Bruges</a>
     </article><article class="archive-item">
-        <a href="/compost/bruges/impasse-rosa-bonheur/" class="archive-item-link">impasse Rosa bonheur</a>
+        <a href="/compost/nouvelle-aquitaine/bruges/le-tasta-allee-de-la-salamandre/" class="archive-item-link">Compost public Le Tasta Allée de la Salamandre à Bruges</a>
     </article><article class="archive-item">
-        <a href="/compost/bruges/residence-les-villas-du-lac-3/" class="archive-item-link">Residence Les Villas du Lac 3</a>
+        <a href="/compost/nouvelle-aquitaine/bruges/le-tasta-impasse-cavaille/" class="archive-item-link">Compost public Le Tasta Impasse Cavaille à Bruges</a>
     </article><article class="archive-item">
-        <a href="/compost/bruges/residence-imagin/" class="archive-item-link">Résidence Imagin</a>
+        <a href="/compost/nouvelle-aquitaine/bruges/le-tasta-rue-andree-descoubes/" class="archive-item-link">Compost public Le Tasta Rue Andrée Descoubes à Bruges</a>
     </article><article class="archive-item">
-        <a href="/compost/bruges/residence-la-tour-de-la-salle-1/" class="archive-item-link">Résidence La tour de la salle 1</a>
+        <a href="/compost/nouvelle-aquitaine/bruges/le-tasta-rue-de-la-prairie/" class="archive-item-link">Compost public Le Tasta Rue de la Prairie à Bruges</a>
     </article><article class="archive-item">
-        <a href="/compost/bruges/residence-le-jarteau/" class="archive-item-link">Résidence le Jarteau</a>
+        <a href="/compost/nouvelle-aquitaine/bruges/le-tasta-rue-du-parc/" class="archive-item-link">Compost public Le Tasta Rue du Parc à Bruges</a>
     </article><article class="archive-item">
-        <a href="/compost/bruges/residence-les-lierres/" class="archive-item-link">Résidence Les Lierres</a>
+        <a href="/compost/nouvelle-aquitaine/bruges/le-tasta-rue-marie-renee-orard/" class="archive-item-link">Compost public Le Tasta Rue Marie-Renée Orard à Bruges</a>
     </article><article class="archive-item">
-        <a href="/compost/bruges/residence-pascal-triat/" class="archive-item-link">Résidence Pascal Triat</a>
+        <a href="/compost/nouvelle-aquitaine/bruges/le-tasta/" class="archive-item-link">Compost public Le Tasta à Bruges</a>
     </article><article class="archive-item">
-        <a href="/compost/bruges/residence-tour-de-la-salle-1/" class="archive-item-link">Résidence tour de la salle 1</a>
+        <a href="/compost/nouvelle-aquitaine/bruges/les-villas-du-lac-3-rue-fragonard/" class="archive-item-link">Compost public Les Villas du Lac 3 Rue Fragonard à Bruges</a>
     </article><article class="archive-item">
-        <a href="/compost/bruges/safer/" class="archive-item-link">SAFER</a>
+        <a href="/compost/nouvelle-aquitaine/bruges/ludotheque-madolude-15-rue-maurice-ravel/" class="archive-item-link">Compost public Ludothèque Madolude 15 Rue Maurice Ravel à Bruges</a>
     </article><article class="archive-item">
-        <a href="/compost/bruges/villa-du-lac-1/" class="archive-item-link">villa du lac 1</a>
+        <a href="/compost/nouvelle-aquitaine/bruges/rue-du-docteur-roger-romefort/" class="archive-item-link">Compost public Rue du Docteur Roger Romefort à Bruges</a>
+    </article><article class="archive-item">
+        <a href="/compost/nouvelle-aquitaine/bruges/rue-du-jarteau/" class="archive-item-link">Compost public Rue du Jarteau à Bruges</a>
+    </article><article class="archive-item">
+        <a href="/compost/nouvelle-aquitaine/bruges/rue-jacques-offenbach/" class="archive-item-link">Compost public Rue Jacques Offenbach à Bruges</a>
+    </article><article class="archive-item">
+        <a href="/compost/nouvelle-aquitaine/bruges/" class="archive-item-link">Tous les composts partagés à Bruges</a>
     </article><ul class="pagination"><li class="page-item ">
                     <span class="page-link">
                         <a href="/cities/bruges/">1</a>
@@ -101,7 +140,7 @@
             </a><a href="#" id="view-comments" class="fixed-button" title="Afficher les Commentaires">
                 <i class="fas fa-comment fa-fw"></i>
             </a>
-        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
+        </div><script type="text/javascript" src="/lib/smooth-scroll/smooth-scroll.min.js"></script><script type="text/javascript" src="/lib/autocomplete/autocomplete.min.js"></script><script type="text/javascript" src="/lib/algoliasearch/algoliasearch-lite.umd.min.js"></script><script type="text/javascript" src="/lib/lazysizes/lazysizes.min.js"></script><script type="text/javascript" src="/lib/clipboard/clipboard.min.js"></script><script type="text/javascript">window.config={"code":{"copyTitle":"Copier dans le presse-papiers","maxShownLines":10},"search":{"algoliaAppID":"IQ0PPT957C","algoliaIndex":"lebongeste","algoliaSearchKey":"2f1efa0eab58de113ad43babe81520d4","highlightTag":"em","maxResultLength":10,"noResultsFound":"Aucun résultat trouvé","snippetLength":30,"type":"algolia"}};</script><script type="text/javascript" src="/js/theme.min.js"></script><script type="text/javascript">
             window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());
             gtag('config', 'UA-220940800-1');
         </script><script type="text/javascript" src="https://www.googletagmanager.com/gtag/js?id=UA-220940800-1" async></script></body>

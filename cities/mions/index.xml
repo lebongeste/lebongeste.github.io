@@ -1,0 +1,25 @@
+<rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
+    <channel>
+        <title>Mions - city - Le bon geste</title>
+        <link>https://www.lebongeste.co/cities/mions/</link>
+        <description>Mions - city - Le bon geste</description>
+        <generator>Hugo -- gohugo.io</generator><language>fr-fr</language><atom:link href="https://www.lebongeste.co/cities/mions/" rel="self" type="application/rss+xml" /><item>
+    <title>Compost public Allée Alphonse Daudet à Mions</title>
+    <link>https://www.lebongeste.co/compost/auvergne-rhone-alpes/mions/allee-alphonse-daudet/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://www.lebongeste.co/compost/auvergne-rhone-alpes/mions/allee-alphonse-daudet/</guid>
+    <description><![CDATA[Adresse : Allée Alphonse Daudet 69780 Mions
+   Région Commune     Auvergne-Rhône-Alpes $commune    Carte Coordonnées 4.9415346 45.6787434
+Information supplémentaire    Type     Quartier    Contact: nan
+Remarques nan
+Avis ]]></description>
+</item><item>
+    <title>Tous les composts partagés à Mions</title>
+    <link>https://www.lebongeste.co/compost/auvergne-rhone-alpes/mions/</link>
+    <pubDate>Mon, 01 Jan 0001 00:00:00 &#43;0000</pubDate>
+    <author>Auteur</author>
+    <guid>https://www.lebongeste.co/compost/auvergne-rhone-alpes/mions/</guid>
+    <description><![CDATA[Trouvez le compost partagé le plus proche de chez vous à Mions]]></description>
+</item></channel>
+</rss>
