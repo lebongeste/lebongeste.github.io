@@ -11,7 +11,6 @@
             <loc>https://www.lebongeste.co/guide/posts/avantage-lombricomposteur/</loc><lastmod>2022-04-06T00:00:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/guide/posts/lutter-mouche-compost/</loc><lastmod>2022-03-21T00:00:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/guide/posts/calendrier-legume-fruit-saison/</loc><lastmod>2022-02-24T00:00:00&#43;00:00</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://www.lebongeste.co/cities/ville/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/cities/albigny-sur-sa%C3%B4ne/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/cities/ambar%C3%A8s-et-lagrave/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/cities/amb%C3%A8s/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
@@ -2706,8 +2705,6 @@
             <loc>https://www.lebongeste.co/compost/auvergne-rhone-alpes/venissieux/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/compost/auvergne-rhone-alpes/ecully/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/compost/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://www.lebongeste.co/decheterie/auvergne-rhone-alpes/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
-            <loc>https://www.lebongeste.co/decheterie/pays-de-la-loire/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/decheterie/pays-de-la-loire/angers/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/decheterie/pays-de-la-loire/avrille/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/decheterie/pays-de-la-loire/bouchemaine/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
@@ -2847,6 +2844,8 @@
             <loc>https://www.lebongeste.co/borne/auvergne-rhone-alpes/venissieux/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/borne/provence-alpes-cote-dazur/eze/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/borne/auvergne-rhone-alpes/ecully/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.lebongeste.co/decheterie/auvergne-rhone-alpes/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
+            <loc>https://www.lebongeste.co/decheterie/pays-de-la-loire/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/borne/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/decheterie/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
             <loc>https://www.lebongeste.co/cities/utelle/</loc><changefreq>monthly</changefreq><priority>0.5</priority></url><url>
